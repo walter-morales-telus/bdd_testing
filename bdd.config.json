@@ -1,0 +1,33 @@
+{
+	"featuresPath": "./bdd/features",
+	"stepsPath": "./dist/bdd/steps",
+	"db": {
+		"user": "",
+		"passwd": "",
+		"host": "",
+		"port": 0,
+		"database": ""
+	},
+	"envsPath": "",
+	"contextsPath": "./dist/bdd/contexts",
+	"threadsNumber": 1,
+	"testOrderPath": "./bdd/testOrder.config.json",
+	"bootstrapPath": "./bdd/DBBootstrap.config.js",
+	"reporters": [
+		"jest-standard-reporter"
+	],
+	"webapp": {
+		"host": "",
+		"port": 0
+	},
+	"uReportConfig": {
+		"token": "",
+		"project": ""
+	},
+	"useUReport": true,
+	"spinnakerProperties": {
+		"pass": "",
+		"fail": ""
+	},
+	"useSpinnaker": true
+}

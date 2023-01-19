@@ -1,0 +1,16 @@
+{
+  "name": "bdd_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bdd:init":"bdd-init",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@telus-bdd/telus-bdd": "^1.4.8"
+  }
+}

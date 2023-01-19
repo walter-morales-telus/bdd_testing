@@ -1,0 +1,6 @@
+# Dependency directories
+node_modules/
+# node-waf configuration
+package-lock.json
+# build directory
+dist/
